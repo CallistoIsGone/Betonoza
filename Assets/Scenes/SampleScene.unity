@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 176933057}
   - component: {fileID: 176933060}
   - component: {fileID: 176933059}
+  - component: {fileID: 176933061}
   m_Layer: 0
   m_Name: enemy 1
   m_TagString: Untagged
@@ -325,6 +326,27 @@ MonoBehaviour:
     _objectReferences:
     - {fileID: 1813703412}
     - {fileID: 1011025949}
+--- !u!95 &176933061
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176933054}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 45ef8fc1454ff4a4db0d62e9f96b96f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +737,7 @@ GameObject:
   - component: {fileID: 1978414703}
   - component: {fileID: 1978414706}
   - component: {fileID: 1978414705}
+  - component: {fileID: 1978414707}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -897,6 +920,27 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2033786532}
+--- !u!95 &1978414707
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978414700}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3986d8d6d0b5a1f4fb6afbce1937d2cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2009605872
 GameObject:
   m_ObjectHideFlags: 0
